@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Sizing of map container */
+
+.leaflet-container {
+  height: 100vh;
+  z-index:1; 
+}
+
+/* #map{ z-index:1; }
+#modal{ z-index:2; } */
