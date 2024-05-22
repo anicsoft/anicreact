@@ -8,10 +8,24 @@ import AppContextProvider from './context/AppContext';
 import Home from './views/Home';
 import { MantineLightTheme } from './ui/MantineLightTheme';
 
+// import { retrieveLaunchParams } from '@tma.js/sdk';
 
 const queryclient = new QueryClient
 
+// if (initDataRaw) {
+  //   const data = JSON.parse(initDataRaw)
+//   console.log(data);
+  
+// }
 function App() {
+  // try {
+  //   const { initDataRaw, initData } = retrieveLaunchParams();
+  //   console.log('init data ', initData)
+    
+  // } catch (error) {
+  //   console.log(error);
+    
+  // }
 
   return (
     <>
